@@ -1,12 +1,16 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <title>Calculator</title> 
+    <link rel=¨stylesheet¨ type=¨css¨ href=¨style.css¨>
+  </head>
 <body>
    <div class="main">
       <input type="text" id = 'res' placeholder="0">
       <div class="btn">
          <input type="button" value = 'C' onclick = "Clear()">
          <input type="button" value = '%' onclick = "Solve('%')">
-         <input type="button" value = '←' onclick ="Back('←')">
+         <input type="button" value = '<-' onclick ="Back('←')">
          <input type="button" value = '/' onclick = "Solve('/')">
          <br>
          <input type="button" value = '7' onclick = "Solve('7')">
@@ -30,6 +34,7 @@
          <input type="button" value = '=' onclick = "Result()">
       </div>
    </div>
-   <script src = 'Calc.js' ></script>
+   <script src = 'script.js' ></script>
 </body>
+</html>
 </html>
