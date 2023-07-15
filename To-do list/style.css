@@ -1,0 +1,40 @@
+.container {
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: auto;
+}
+    
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+    
+.task input[type="checkbox"] {
+  margin-right: 10px;
+  background-color: red;
+}
+
+.task input[type="checkbox"]:checked {
+  background-color: green;
+}
+    
+.complete {
+  text-decoration: line-through;
+  color: gray;
+}
+
+ul {
+  list-style-type: none;
+}
+    
+.delete-btn {
+  margin-left: 10px;
+  padding: 2px 5px;
+  background-color: black;
+  color: white;
+}
+
