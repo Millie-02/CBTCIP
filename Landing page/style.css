@@ -1,0 +1,189 @@
+/* Default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial;
+  background-image: url("https://wallpaperaccess.com/full/1093305.jpg"); 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: cover;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a:hover {
+  color: #00008B;
+}
+
+nav ul li a:active {
+  transform:scale(0.75);
+}
+
+.login-signup {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-signup:hover { 
+background-color: #00008B; 
+}
+
+.login-signup:active { 
+transform: scale(0.75); 
+}
+
+/* Introductory Section */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #1434A4;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-family: 'Alex Brush', cursive;
+  font-size:120px;
+}
+
+header p {
+  font-family: 'Montserrat';
+  font-size: 14px;
+}
+
+/* About */
+.center-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.center-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.center-section h2 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.feature {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-image: url("https://img.freepik.com/premium-vector/blue-polygonal-crystal-background-low-poly-design-pattern_126712-1813.jpg"); 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+
+/* Get Started Button */
+.cta-container {
+  text-align: center;
+}
+
+.get-started {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.get-started:hover {
+  background-color: #00008B;
+}
+
+.get-started:active {
+  transform:scale(0.75);
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.social-icons li {
+  display: inline;
+  margin-right: 10px;
+}
